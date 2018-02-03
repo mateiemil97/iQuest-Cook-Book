@@ -1,0 +1,326 @@
+header{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+form
+{
+    max-width: 1000px;
+    margin:0 25% 0 25%;        
+}
+
+button{
+    border-radius: 4px;
+}
+
+section
+{
+    margin-top: 3%;
+    background-color: #f6f4f4;
+    margin-bottom: 3px;
+    text-align: left;  
+}
+
+.iQuest_subtitle
+{
+    background-color: #db4d3f;
+    text-align: left;
+    color:#ffff;
+    padding: 3px 3px;
+    display: block
+}
+
+.iQuest_textWidth
+{
+    width: 95%;
+    border: 0;
+    resize: vertical;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+
+.iQuest_fieldTitle{
+    margin-left: 2.5%;
+    font-size: 15px;
+    margin-bottom: 1%;
+    font-weight: 500;
+}
+.iQuest_formTitle
+{
+    padding: 5px 0 5px 5px;
+    width: 95%;
+    resize: none;
+    border: 0;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 3%
+}
+
+.iQuest_textArea
+{
+    width: 95%;
+    border: 0;
+    resize: vertical;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 3%
+}
+
+.iQuest_title{
+    color: white;
+    background-color: #d94e44;
+    text-align: center;
+    padding: 0.1%
+    
+}
+
+.iQuest_topnav {
+  list-style:none;
+  margin:0;
+  padding:0;
+  border-bottom: 1px solid #d6d4d4;
+  text-align:center;
+}
+
+.iQuest_topnav li{
+    display:inline-block; 
+    text-align: center;
+    width: 49%;
+    padding: 1% 0 1% 0;
+}
+
+.iQuest_topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.iQuest_topnav select {
+    font-size: 17px;
+}
+
+
+.iQuest_topnav a.active {
+  color: #db4d3f;
+}
+
+.iQuest_3Elements{
+    margin-left: 2.5%;
+    margin-right:2.5%;
+    width: 95%;
+    display: table;
+    padding-bottom: 2%
+}
+
+
+.iQuest_1El{
+    text-align: left;
+    display: table-cell;
+    margin-left: 2.5%;
+    min-height: 150px;
+    width: 26%;
+}
+
+.iQuest_2El{
+    text-align: center;
+    display: table-cell;
+    min-height: 150px;
+    width: 44%;
+}
+
+.iQuest_3El{
+    text-align: right;
+    display: table-cell;
+    margin-left: 2.5%;
+    min-height: 150px;
+    width: 26%;
+}
+
+.iQuest_redArrow{
+    color: #d94e44;
+}
+
+.iQuest_qty{
+    text-align: left;
+    display: table-cell;
+    margin-left: 2.5%;
+    min-height: 150px;
+    width: 1%;
+}
+.iQuest_qty input{
+    padding: 6% 0 6% 0;
+}
+
+.iQuest_middleElement{
+    text-align: center;
+    display: table-cell;
+    width: 65%;
+}
+
+.iQuest_middleElement select{
+    width: 20%;
+    display: inline-block;
+    padding: 2% 0 2% 0;
+}
+
+
+.iQuest_middleElement input{
+    
+    display: inline-block;
+    width: 50%;
+    padding: 2% 0 2% 0;
+}
+
+.iQuest_offText{
+    display: inline-block;
+    padding: 0 5% 0 5%;
+}
+
+.iQuest_addQty{
+    display: inline-block;
+    text-align: right;
+    display: table-cell;
+    margin-left: 2.5%;
+    width: 1%;
+}
+
+.iQuest_addQty button{
+    width: 40px;
+    height: 37px;
+    color: #d94e44;
+    border:1px solid #d94e44;
+    background-color: white;
+}
+
+.iQuest_ol{
+    padding-top: 2%;
+}
+.iQuest_addStep{
+    padding-bottom: 2%;
+}
+.iQuest_addStep button{
+    text-align: center;
+    background-color: white;
+    color: #db4d3f;
+    border: 1px solid;
+    border-color: #db4d3f;
+    margin-left:2.5%;
+    margin-right: 2.5%;
+    width: 95%;
+    padding: 1.5% 0 1.5% 0;
+    font-size: 18px;
+}
+
+.iQuest_cancelSaveContainer {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 20%;
+}
+
+.iQuest_cancelButton{
+    float: left;
+    text-align: center;
+    background-color: white;
+    color: #db4d3f;
+    border: 1px solid;
+    border-color: #db4d3f;
+    width: 50%;
+    padding: 1.5% 0 1.5% 0;
+    font-size: 18px;
+}
+
+.iQuest_saveButton{
+    float: right;   
+    text-align: center;
+    background-color: #db4d3f;
+    color: white;
+    border: 1px solid;
+    border-color: #db4d3f;
+    width: 50%;
+    padding: 1.5% 0 1.5% 0;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 320px){
+form
+    {
+        margin:0 0 0 0;        
+    }
+.iQuest_topnav li>select{
+	   width: 90%;
+    }
+.iQuest_2El{
+     width: 35%   
+    }
+
+.iQuest_qty{
+    text-align: left;
+    display: table-cell;
+    margin-left: 0%;
+    width: auto;
+    }
+.iQuest_qty input{
+    width: 70%;
+    padding: 6% 0 6% 0;
+    }
+.iQuest_offText{
+    display: none;
+    }
+    
+.iQuest_middleElement select{
+        width: 30%;
+        display: inline-block;
+        margin-right: 7%;
+        padding: 3% 0 3% 0;
+    }
+.iQuest_addQty button{
+        width: 30px;
+        height: 28px;
+        color: #d94e44;
+        border:1px solid #d94e44;
+        background-color: white;
+    }    
+*{
+    overflow: hidden;
+    overflow-y: scroll;
+}
+}
+
+@media screen and (max-width: 500px) and (min-width: 321px) {
+form
+    {
+        margin:0 3% 0 3%;        
+    }
+    
+.iQuest_topnav li>select{
+	width: 70%;
+    }
+.iQuest_offText{
+    padding: 0 1% 0 1%;
+    }
+.iQuest_qty input{
+    padding: 3% 0 3% 0;
+    }
+.iQuest_addQty button{
+        width: 30px;
+        height: 30px;
+        color: #d94e44;
+        border:1px solid #d94e44;
+        background-color: white;
+    }    
+}
+
+@media screen and (max-width: 700px) and (min-width: 501px) {
+form
+    {
+        margin:0 5% 0 5%;        
+    }
+.iQuest_qty input{
+        padding: 5% 0 5% 0;
+    }
+}

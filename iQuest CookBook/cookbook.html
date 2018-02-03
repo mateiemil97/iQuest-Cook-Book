@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<title>iQuest CookBook</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">    
+<link rel="stylesheet" href="style.css">
+
+ 
+<header>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    
+    <div class="iQuest_title">
+    <h1><i class="fas fa-utensils"></i> iQuest Cook Book</h1>
+    </div>
+</header>
+    
+<body>
+
+<ul class="iQuest_topnav">
+  <li style="border-right:1px solid #d6d4d4;height:auto"><a class="active" href="#"><i class="fas fa-plus"></i> New Recipe</a></li>
+  <li>
+      <select>
+                  <option><i class="fas fa-check"></i>Select a recipe...</option>
+                  <option value="Scambled egg omlette">Scambled egg omlette</option>
+        </select>
+    </li>
+</ul>
+
+<form>
+    <section>
+
+        <h3 class="iQuest_subtitle">&nbsp;&nbsp;<i class="fas fa-info"></i> About</h3>
+        <div class="iQuest_fieldTitle">Reciepe title</div>
+        <textarea class="iQuest_formTitle"  rows = "1"  name="title" form="save" placeholder="Title"></textarea>
+        
+        <div class="iQuest_fieldTitle">Description</div>
+        <textarea class="iQuest_textArea" rows = "8"  name="description" form="save" placeholder="About the recipe"></textarea>
+        
+        <div class="iQuest_3Elements">
+            <div class="iQuest_1El">
+                Portions <select >
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                    
+                </select> 
+            </div>
+            
+            <div class="iQuest_2El">
+                    Time(mins) 
+                        <select>
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                            <option value="45">45</option>
+                            <option value="60">60</option>
+                            <option value="90">90</option>
+                            <option value="120">120</option>
+                        </select>
+                    
+              </div>
+            
+            <div class="iQuest_3El">
+                    Dificulty
+                    <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    
+             </div>
+            
+            
+        </div>
+    </section>
+    <section>
+
+        <h3 class="iQuest_subtitle">&nbsp;&nbsp;<i class="fas fa-list"></i> Ingredients</h3>
+        
+        <ul style="list-style: none;padding: 2% 0 2% 0;margin-left: 7%">
+                    <li><i class="fas fa-angle-double-right iQuest_redArrow"></i> 300 g brown rice</li>
+                    <li><i class="fas fa-angle-double-right iQuest_redArrow"></i> 2 pc red onions</li>
+                    <li><i class="fas fa-angle-double-right iQuest_redArrow"></i> 1 pc fresh red chilli</li>
+                    <li><i class="fas fa-angle-double-right iQuest_redArrow"></i> 25 g unsalted butter</li>
+                    <li><i class="fas fa-angle-double-right iQuest_redArrow"></i> 6 pc large free-range eggs</li>
+        </ul>
+        
+        <div class="iQuest_3Elements">
+            
+            <div class="iQuest_qty">
+                <input type="text" name="qty" placeholder="Qty."/>
+            </div>
+            
+            <div class="iQuest_middleElement">
+
+                        <select>
+                            <option>Unit</option>
+                            <option value="g">g</option>
+                            <option value="Kg">Kg</option>
+                            <option value="pc">pc</option>
+                            <option value="ml">ml</option>
+                            <option value="l">l</option>
+                            <option value="tea spoon(s)">tea spoon(s)</option>
+                        </select>
+                        <div class="iQuest_offText">
+                        of
+                        </div>
+                        <input type="text" placeholder="Ingredients">
+                    
+            </div>
+            
+            <div class="iQuest_addQty">
+                <button type="button"><i id="addIngredient" class="fas fa-plus-square"></i></button>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <h3 class="iQuest_subtitle">&nbsp;&nbsp;<i class="fas fa-list-ol"></i> Steps</h3>
+        <ol class="iQuest_ol">
+            <li>Cook the rice in a pan of boiling salted water according to the packet instruction, then drain 
+            and refresh under cold water, leaving it in the colander. <br/><br/></li>
+            <li>At the same time, poach the fish in a large pan of simmering salted water on a medium heat for
+            10 minutes, then carefully remove with a soltted spoon. Turn the heat up under the poaching water and
+            bring back to a good simmer.<br/><br/></li>
+            <li>Meanwhile, peel the onions and finely slice with the red chilli(deseed if you like) and coriander
+            stalks. Peel finely chop the garlic and ginger. Place it all in a large frying pan on a medium heat with 1
+            tablespoon of oil and the butter, and cook for 10 minutes, or until soft but not coloured, stirring occasionally<br/><br/></li>
+        </ol>
+        
+        <h3 class="iQuest_fieldTitle">Step</h3>
+        <textarea class=" iQuest_textArea" placeholder="Step description" rows ="8"></textarea>
+        
+        
+        <div class="iQuest_addStep">
+            <button type="button"><i class="fas fa-plus-square"></i> Add step</button>   
+        </div>
+        
+</section>
+    
+
+<div class ="iQuest_cancelSaveContainer">
+        <button type="button" class="iQuest_cancelButton"><i class="far fa-trash-alt"></i> Cancel</button>
+        <button type="button" class="iQuest_saveButton"><i class="fas fa-save"></i> Save recipe</button>
+</div>
+
+</form>
+
+
+</body>
+</html>
